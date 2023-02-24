@@ -68,9 +68,7 @@ setTimeout(() => {
     document.querySelector('table').innerHTML = Table(31);
     start = ((start + 31) % 7);
   }
-  if (data + 1 == mon ) {
     document.querySelector(`#td${day}`).style = "background-color:#c12f6c;color:#fff;";
-  }
 }, 1000);
 
 function Table(n) {
